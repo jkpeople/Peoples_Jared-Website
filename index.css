@@ -6,16 +6,12 @@ body {
 
 a {
     text-decoration: none;
+    margin: 1px;
+    color: #515151;
 }
 
 a:hover {
-    text-decoration: none;
-}
-
-header {
-    background-color: silver;
-    font-size: 16px;
-    
+    text-decoration: underline;
 }
 
 nav {
@@ -32,7 +28,6 @@ nav {
 
 footer {
     display: flex;
-    background-color: silver;
     position: fixed;
     bottom: 0;
     width: 100vw;
