@@ -20,7 +20,12 @@ nav {
 }
 
 section {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    height: 600px;
 }
 
 footer {
@@ -36,6 +41,7 @@ ul > a {
 .nav {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-left: 20px;
     margin-right: 20px;
 }
@@ -45,4 +51,14 @@ footer a {
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+}
+
+.coding-image {
+    width: 96%;
+    height: 500px;
+}
+
+.nav-middle > a {
+    font-weight: bold;
+    
 }
