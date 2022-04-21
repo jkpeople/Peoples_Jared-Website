@@ -55,8 +55,8 @@ footer a {
     font-weight: bold;
 }
 
-#section-head {
-    margin: 50px;
+section h1 {
+    margin: 30px;
     text-decoration: underline;
     font-weight: bold;
 }
