@@ -30,6 +30,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
+    background-color: silver;
 }
 
 ul > a {
@@ -48,15 +49,23 @@ footer a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
 }
 
 .nav-middle > a {
     font-weight: bold;
 }
 
-#section-head h1 {
+.section-head h1 {
     margin: 30px;
     text-decoration: underline;
     font-weight: bold;
+}
+
+.fa-brands {
+    margin: 20px;
+}
+
+.section-body {
+    display: flex;
+    margin: 75px;
 }
