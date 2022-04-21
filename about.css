@@ -59,10 +59,15 @@ section h1 {
     color: #515151;
 }
 
-#para-head {
+#section-head {
     margin: 50px;
     text-decoration: underline;
     font-weight: bold;
+    color: black;
+}
+
+#section-head h1 {
+    color: black;
 }
 
 #para {
@@ -70,5 +75,6 @@ section h1 {
     text-align: center;
     padding-left: 50px;
     margin-right: 50px;
+    color: black;
 }
 
