@@ -59,17 +59,16 @@ section h1 {
     color: #515151;
 }
 
-#para1 {
-    margin-top: 20px;
+#para-head {
+    margin: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#para {
     font-size: 20px;
     text-align: center;
     padding-left: 50px;
     margin-right: 50px;
 }
 
-#para2 {
-    font-size: 20px;
-    text-align: center;
-    padding-left: 50px;
-    margin-right: 50px;
-}
