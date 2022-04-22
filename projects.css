@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+body a {
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #515151;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}

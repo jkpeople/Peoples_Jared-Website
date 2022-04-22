@@ -17,6 +17,9 @@ a:hover {
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: silver;
+    height: 45px;
+    align-items: center;
 }
 
 section {
@@ -24,8 +27,9 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 6vh;
     height: 600px;
+    
 }
 
 footer {
@@ -38,26 +42,41 @@ ul > a {
     padding: 0 8px;
 }
 
+ul > a:hover {
+    color: black; /*NAV*/
+    text-decoration: none;
+}
+
 .nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 20px;
-    margin-right: 20px;
+    padding-left: 100px;
+    margin-right: 100px;
 }
 
-footer a {
+footer p {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    font-size: 0.8em;
 }
 
+footer p:hover {
+    cursor: default;
+}
+ 
 .coding-image {
-    width: 96%;
-    height: 500px;
+    width: 50%;
+    height: 75%;
+    border-style: solid;
+    /*SECTION*/
 }
 
-.nav-middle > a {
+.nav-middle {
+    position: relative;
     font-weight: bold;
+    font-size: 18px;
+    font-family: monospace;
 }

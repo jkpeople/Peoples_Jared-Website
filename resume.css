@@ -17,6 +17,9 @@ a:hover {
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: silver;
+    height: 45px;
+    align-items: center;
 }
 
 section {
@@ -24,6 +27,8 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-left: 15%;
+    margin-right: 15%;
 }
 
 footer {
@@ -36,23 +41,35 @@ ul > a {
     padding: 0 8px;
 }
 
+ul > a:hover {
+    color: black; /*NAV*/
+    text-decoration: none;
+}
+
 .nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 20px;
-    margin-right: 20px;
+    padding-left: 100px;
+    margin-right: 100px;
 }
 
-footer a {
+footer p {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
 }
 
-.nav-middle > a {
+footer p:hover {
+    cursor: default;
+}
+
+.nav-middle {
+    position: relative;
     font-weight: bold;
+    font-size: 18px;
+    font-family: monospace;
 }
 
 #section-head h1 {
