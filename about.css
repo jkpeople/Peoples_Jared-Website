@@ -4,26 +4,11 @@ body {
     font-size: 0.9em;
 }
 
-a {
-    margin: 1px;
+body a {
+    vertical-align: middle;
+    text-align: center;
     text-decoration: none;
     color: #515151;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 footer {
@@ -32,49 +17,9 @@ footer {
     width: 100vw;
 }
 
-ul > a {
-    padding: 0 8px;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 20px;
-    margin-right: 20px;
-}
-
 footer a {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
 }
-
-.nav-middle > a {
-    font-weight: bold;
-}
-
-section h1 {
-    color: #515151;
-}
-
-#section-head {
-    margin: 50px;
-    text-decoration: underline;
-    font-weight: bold;
-    color: black;
-}
-
-#section-head h1 {
-    color: black;
-}
-
-#para {
-    font-size: 20px;
-    text-align: center;
-    padding-left: 50px;
-    margin-right: 50px;
-    color: black;
-}
-

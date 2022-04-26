@@ -4,85 +4,22 @@ body {
     font-size: 0.9em;
 }
 
-a {
-    margin: 1px;
+body a {
+    vertical-align: middle;
+    text-align: center;
     text-decoration: none;
     color: #515151;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
-    background-color: silver;
-}
-
-ul > a {
-    padding: 0 8px;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 20px;
-    margin-right: 20px;
 }
 
 footer a {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.nav-middle > a {
-    font-weight: bold;
-}
-
-.section-head h1 {
-    margin: 30px;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.fa-brands {
-    margin: 20px;
-}
-
-.section-body {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 75px;
-}
-
-.fa-solid {
-    margin: 20px;
-    font-size: 10em;
-}
-
-.thumbnail:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
+    margin-bottom: 10px;
 }
