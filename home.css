@@ -16,11 +16,6 @@
     font-size: 12px;
 }
 
-.menu-area a:hover {
-    background: black;
-    color: silver;
-}
-
 .menu-area ul {
     list-style: none;
     display: flex;
@@ -70,8 +65,4 @@
     color: white;
     font-size: 75px;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-}
-
-.dropdown-1 li a {
-    background-color: rgba(0,0,0,0.92);
 }
