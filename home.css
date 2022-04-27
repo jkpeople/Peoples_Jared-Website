@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.menu-area a {
+.header-nav a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,15 +13,19 @@
     height: 40px;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
 }
 
-.menu-area ul {
+.header-nav a:hover {
+    color: white;
+}
+
+.header-nav ul {
     list-style: none;
     display: flex;
 }
 
-.menu-area li {
+.header-nav li {
     position: relative;
     width: 100%;
     text-align: center;
@@ -32,20 +36,16 @@
     top: 0;
 }
 
-.menu-area li:hover .dropdown-2>li {
-    display: block;
-    top: 0;
-}
-
 .dropdown-1 {
     position: absolute;
     display: flex;
     flex-direction: column;
     width: 100%;
+    background: orange;
 }
 
 .dropdown-1 li {
-    display: none;
+    /*display: none;*/
     position: relative;
 }
 
@@ -53,12 +53,13 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/Y0YM36yL/aa.jpg);
     -webkit-background-size: cover;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
+
 
 .banner-area h1 {
     text-transform: uppercase;
@@ -66,3 +67,4 @@
     font-size: 75px;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
+
