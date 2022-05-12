@@ -3,35 +3,36 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="./images/Jared Peoples.png">
+    <link rel="icon" type="image/x-icon" href="./images/favicon_io/favicon-32x32.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="./about.js"></script>
+    <script src="./home.js"></script>
     <link rel="stylesheet" href="./about.css">
     <title>J.Peoples | About</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="header-nav"> <!--FLEX CONTAINER-->
-                <a id="name-logo" href="#">J.PEOPLES</a> <!--FLEX ITEM-->
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a>
-                    <!--
-                    <ul class="header-nav-dropdown">
-                        <li><a href="#">About me</a></li>
-                        <li><a href="#">Resume</a></li>
-                    </ul>
-                    --> 
-                </li>
+    <ul class="header-nav">
+        <!--FLEX CONTAINER-->
+        <div class="name-logo">
+            <a href="#">J.PEOPLES</a>
+        </div>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a>
+            <!--
+            <ul class="header-nav-dropdown">
+                <li><a href="#">About me</a></li>
                 <li><a href="#">Resume</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Links</a></li>
-                <li><a href="#">Contact</a></li>
-                <img id="sandbar" src="./images/sandwich_bar.png" alt=""> 
             </ul>
-        </nav>
-    </header>
+            -->
+        </li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Links</a></li>
+        <li><a href="#">Contact</a></li>
+        <div>
+            <img class="sandbar" src="./images/sandwich_bar.png" alt="sandbar">
+        </div>
+    </ul>
 
     <div class="container-1"> <!--FLEX CONTAINER/ITEM-->
         <div class="container-1-p">
