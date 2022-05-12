@@ -1,77 +1,51 @@
+/* Global */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-.menu-area a {
+/*=====================================================================================*/
+/*==STOP==STOP==STOP==STOP==STOP==STOP==STOP==STOP==STOP==STOP==STOP==STOP==STOP==STOP=*/
+/*=====================================================================================*/
+
+.header-nav {
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: silver;
-    background: rgba(0,0,0,0.92);
-    height: 40px;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    text-decoration: none;
-    font-size: 12px;
+    justify-content: space-between;
+    background-color: #515151;
+    padding: 0 50px 0 50px;
 }
 
-.menu-area a:hover {
-    background: black;
-    color: silver;
-}
-
-.menu-area ul {
+.nav-ul {
+    display: flex;
     list-style: none;
-    display: flex;
+    height: auto;
 }
 
-.menu-area li {
-    position: relative;
-    width: 100%;
-    text-align: center;
+/*==NAV LINKS==*/
+.nav-ul a {
+    color: silver;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
 }
 
-.menu-area li:hover .dropdown-1>li {
-    display: block;
-    top: 0;
-}
-
-.menu-area li:hover .dropdown-2>li {
-    display: block;
-    top: 0;
-}
-
-.dropdown-1 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.dropdown-1 li {
-    display: none;
-    position: relative;
-}
-
-.banner-area {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.postimg.cc/Y0YM36yL/aa.jpg);
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.banner-area h1 {
-    text-transform: uppercase;
+.nav-ul a:hover {
     color: white;
-    font-size: 75px;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
-.dropdown-1 li a {
-    background-color: rgba(0,0,0,0.92);
+/*==LOGO==*/
+#nav-title a {
+    color: silver;
+    text-decoration: none;
+    font-size: 5vw;
+}
+
+#nav-title a:hover {
+    color: white;
+}
+
+/*nav {
+    padding: ;
 }
