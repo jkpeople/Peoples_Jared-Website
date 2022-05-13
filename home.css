@@ -20,18 +20,19 @@ body {
     height: 100vh;
     background-image: url("./images/snow_leapord.jpg"); /*==TESTING==*/ 
     background-repeat: no-repeat;
-    background-size: cover;                     /*==h0lY=sHiT=!REMEMBER!==*/ 
+    background-size: cover;                     /*==h0lY=sHiT=!REMEMBER!=!THIS!==*/ 
     background-position: center;
 }
 
 /*===NAVBAR===*/ 
 .header-nav {
     display: flex;
+    flex-direction: row;
     justify-content: center; /*=*/ 
     list-style: none; /*==FOR FUTURE DROPDOWN NAV MENU*/ 
     background-color: rgb(0, 0, 0, 0.92);
     align-items: center; 
-    position: fixed;                         /*==FIXED vs RELATIVE==*/ /*==STICKY?==*/ 
+    position: relative;                         /*==FIXED vs RELATIVE==*/ /*==STICKY?==*/ 
     width: 100vw;
     /*height: 44px;*/ 
     /*z-index: 9999;*/ 
